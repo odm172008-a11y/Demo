@@ -1,0 +1,112 @@
+/* Reset */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+/* Body */
+body{
+background:#f5f7fb;
+color:#333;
+line-height:1.6;
+}
+
+/* Header */
+header{
+background:linear-gradient(135deg,#2563eb,#1e3a8a);
+color:white;
+text-align:center;
+padding:40px 20px;
+}
+
+header h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+header p{
+font-size:18px;
+opacity:0.9;
+}
+
+/* Navigation */
+nav{
+background:#111827;
+text-align:center;
+padding:12px;
+}
+
+nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-weight:600;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#60a5fa;
+}
+
+/* Section */
+section{
+max-width:900px;
+margin:40px auto;
+padding:0 20px;
+}
+
+/* Cards */
+.card{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 6px 15px rgba(0,0,0,0.08);
+margin-bottom:25px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+/* Headings */
+h2{
+margin-bottom:15px;
+color:#1e3a8a;
+}
+
+/* Skills list */
+ul{
+padding-left:20px;
+}
+
+li{
+margin-bottom:8px;
+}
+
+/* Buttons */
+.btn{
+display:inline-block;
+background:#2563eb;
+color:white;
+padding:10px 18px;
+border-radius:6px;
+text-decoration:none;
+margin-top:10px;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#1e40af;
+}
+
+/* Footer */
+footer{
+background:#111827;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:40px;
+}
